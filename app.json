@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/explore/explore",
+    "pages/bookshelf/bookshelf",
+    "pages/my-page/my-page"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#22272d",
+    "navigationBarTitleText": "书城",
+    "navigationBarTextStyle": "white"
+    
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#4abcff",
+    "backgroundColor": "#2a3139",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "/img/zhuye2.png",
+        "iconPath": "/img/zhuye.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "selectedIconPath": "/img/tansuo2.png",
+        "iconPath": "/img/tansuo.png"
+      },
+      {
+        "pagePath": "pages/bookshelf/bookshelf",
+        "selectedIconPath": "/img/shu2.png",
+        "iconPath": "/img/shu.png"
+      },
+        {
+          "pagePath": "pages/my-page/my-page",
+          "selectedIconPath": "/img/wode2.png",
+          "iconPath": "/img/wode.png"
+        }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

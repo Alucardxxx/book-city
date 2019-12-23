@@ -1,0 +1,134 @@
+<!--index.wxml-->
+<view class="container">
+<view class="page-header">
+<view class="home-search"><image src="/img/sousuo.png"/>
+<input placeholder="搜索..." placeholder-style="color:#999faf;"/>
+</view>
+</view>
+<view class="page-body">
+<view class="page-title">
+<text class="ranking">分类排行</text>
+<text class="view-all">查看全部 ></text>
+</view>
+<view class="classification-ranking">
+<view class="classification-list">
+<image src="/img/fl1.jpg"/>
+<text>科幻</text>
+</view>
+<view class="classification-list">
+<image src="/img/fl2.jpg"/>
+<text>生活</text>
+</view>
+<view class="classification-list">
+<image src="/img/fl3.jpg"/>
+<text>露营</text>
+</view>
+<view class="classification-list">
+<image src="/img/fl4.jpg"/>
+<text>职场</text>
+</view>
+</view>
+<view class="page-title">
+<text class="ranking">作者排行</text>
+<text class="view-all">查看全部 ></text>
+</view>
+<view class="classification-ranking">
+<view class="classification-list">
+<image src="/img/tx1.jpg"/>
+<text>刘慈欣</text>
+</view>
+<view class="classification-list">
+<image src="/img/tx2.jpg"/>
+<text>田小花</text>
+</view>
+<view class="classification-list">
+<image src="/img/tx3.jpg"/>
+<text>马尔克斯</text>
+</view>
+<view class="classification-list">
+<image src="/img/tx4.jpg"/>
+<text>余秋雨</text>
+</view>
+</view>
+<view class="page-title">
+<text class="ranking">新发布</text>
+<text class="view-all">查看全部 ></text>
+</view>
+<view class="new-release">
+<view class="new-release-list">
+<image src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+<view class="new-release-list">
+<image src="/img/wljs.jpg"/>
+<text class="new-book">未来简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/zsdjy.jpg"/>
+<text class="new-book">自私的基因</text>
+<text class="author">理查德.道金斯</text>
+</view>
+<view class="new-release-list">
+<image src="/img/bngd.jpg"/>
+<text class="new-book">百年孤独</text>
+<text class="author">马尔克斯</text>
+</view>
+</view>
+<view class="page-title">
+<text class="ranking">热门搜索</text>
+</view>
+<view class="popular-search">
+<text class="search-list search-border1">2018排行榜</text>
+<text class="search-list search-border2">职场热门</text>
+<text class="search-list search-border3">都市言情</text>
+<text class="search-list search-border4">哈弗大学经济管理类</text>
+<text class="search-list search-border5">领导才能</text>
+</view>
+<view class="page-title">
+<text class="ranking">热销榜</text>
+<text class="view-all">查看全部 ></text>
+</view>
+<view class="sell-well">
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/st.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">三体：死神永生</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：刘慈欣</text>
+</view>
+<text class="book-introduce">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+</view>
+</view>
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/wljs.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">三体：死神永生</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：刘慈欣</text>
+</view>
+<text class="book-introduce">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+</view>
+</view>
+</view>
+
+</view>
+
+</view>
