@@ -1,1 +1,77 @@
 /* pages/bookshelf/bookshelf.wxss */
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.header text{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+  margin-left: 334rpx;
+}
+
+.header image{
+  margin-left: 240rpx;
+   width: 40rpx;
+  height: 40rpx;
+
+}
+
+.page-title {
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60rpx 0 0 0;
+  margin: 0 auto;
+}
+
+.ranking {
+  font-size: 36rpx;
+  color: #fff;
+}
+
+.view-all {
+  font-size: 26rpx;
+  color: #999faf;
+}
+
+.new-release{
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+  flex-wrap: wrap;
+
+}
+
+.new-release-list{
+  padding: 30rpx 0;
+}
+
+.new-release-list image{
+  display: block;
+  width: 192rpx;
+  height:320rpx;
+  margin:20rpx 0;
+  
+}
+
+.new-release-list text{
+display: block;
+
+}
+
+.new-book{
+  font-size: 26rpx;
+  color: #fff;
+  padding: 10rpx 0;
+}
+
+.author{
+  font-size:22rpx;
+   color: #7d828f;
+}
+

@@ -6,6 +6,11 @@ Page({
   data: {
    
   },
+    going() {
+    wx.navigateTo({
+      url: "/pages/science-fiction/science-fiction"
+    })
+  },
   //事件处理函数
  
 })

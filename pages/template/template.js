@@ -1,36 +1,11 @@
-// pages/explore/explore.js
-const app = getApp()
-
+// pages/template/template.js
 Page({
-
-
 
   /**
    * 页面的初始数据
    */
   data: {
-    fk2: false,
-    fk22: true,
-    fk11:true,
-    fk1:false,
-  },
-  click1: function (e) {
-    this.setData({
-     fk2:true,
-     fk11:false,
-     fk22:false,
-     fk1:true,
-     
-    })
-  },
-  click2: function (e) {
-    this.setData({
-      fk2: false,
-      fk11: true,
-      fk22: true,
-      fk1: false,
 
-    })
   },
 
   /**

@@ -1,6 +1,10 @@
 <!--index.wxml-->
 <view class="container">
 <view class="page-header">
+<view class="page-header-icon">
+<image src="/img/jb.png"/>
+<image src="/img/sh.png"/>
+</view>
 <view class="home-search"><image src="/img/sousuo.png"/>
 <input placeholder="搜索..." placeholder-style="color:#999faf;"/>
 </view>
@@ -12,7 +16,7 @@
 </view>
 <view class="classification-ranking">
 <view class="classification-list">
-<image src="/img/fl1.jpg"/>
+<image bindtap="going" src="/img/fl1.jpg"/>
 <text>科幻</text>
 </view>
 <view class="classification-list">

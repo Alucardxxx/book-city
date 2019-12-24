@@ -1,2 +1,48 @@
 <!--pages/my-page/my-page.wxml-->
-<text>pages/my-page/my-page.wxml</text>
+<view class="container">
+<view class="header">
+<text>我的</text>
+<image src="/img/sz.png"/>
+</view>
+<view class="my-information">
+<image class="head-portrait" src="/img/tx2.jpeg"/>
+<view class="information-text">
+<text class="name">翟萌萌</text>
+<text class="address">中国 . 河南</text>
+</view>
+<view class="share"><image src="/img/fx.png"/><text>分享</text>
+</view>
+</view>
+<view class="number">
+<view class="number-list">
+1286
+<text>关注</text>
+</view>
+<view class="number-list fans">
+3368
+<text>粉丝</text>
+</view>
+<view class="number-list">
+6676
+<text>喜欢</text>
+</view>
+</view>
+<view class="information-bar">
+<view class="information-bar-list">
+<view>个人信息</view>
+<view class="details"> > </view>
+</view>
+<view class="information-bar-list">
+<view>我的消息</view>
+<view class="my-news">6</view>
+</view>
+<view class="information-bar-list">
+<view>账户余额</view>
+<view class="details"> <text class="money">1347.6￥</text> > </view>
+</view>
+<view class="information-bar-list">
+<view>我的评论</view>
+<view class="details"> > </view>
+</view>
+</view>
+</view>

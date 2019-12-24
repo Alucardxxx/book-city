@@ -1,1 +1,146 @@
 /* pages/my-page/my-page.wxss */
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.header text{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+  margin-left: 334rpx;
+}
+
+.header image{
+  margin-left: 240rpx;
+   width: 40rpx;
+  height: 40rpx;
+
+}
+
+.my-information{
+   width:650rpx;
+   margin: 0 auto;
+   display: flex;
+   margin-top: 40rpx;
+}
+
+.head-portrait{
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 50%;
+}
+
+.information-text{
+  width: 150rpx;
+  height:80px;
+  padding: 30rpx 0 0 30rpx;
+}
+
+.name{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.address{
+  padding-top: 20rpx;
+  display: block;
+  font-size: 28rpx;
+  color: #999faf;
+}
+
+.share{
+  border: 2rpx solid #999faf;
+  width: 160rpx;
+  height: 54rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6rpx;
+  margin-left: 60rpx;
+  margin-top: 170rpx;
+
+}
+
+.share image{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0 10rpx 0 0;
+
+}
+
+.share text{
+  font-size: 24rpx;
+color: #999faf;
+}
+
+.number{
+  display: flex;
+ width:650rpx;
+  margin: 40rpx auto;
+  border-radius: 14rpx;
+  background-color: #2b323b;
+  justify-content: center;
+  padding: 20rpx 0 20rpx 0;
+}
+
+.number-list{
+text-align: center;
+font-size: 34rpx;
+color: #fff;
+padding:0 60rpx; 
+
+}
+
+.fans{
+  border-left: 2rpx solid #363c45;
+  border-right: 2rpx solid #363c45;
+}
+
+.number-list text{
+  display: block;
+font-size: 23rpx;
+color: #999faf;
+padding-top: 14rpx;
+}
+
+.information-bar{
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+
+.information-bar-list{
+  padding: 40rpx 0;
+  width: 688rpx;
+  display: flex;
+  font-size: 34rpx;
+  color: #afb3be;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #34373b;
+}
+
+.information-bar-list view{
+  margin-right: 40rpx;
+}
+
+.information-bar-list .details{
+font-size: 44rpx;
+}
+
+.information-bar-list .my-news{
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #fb6894;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 40rpx;
+}
+
+.information-bar-list .money{
+  color: #fb6894;
+  font-size: 36rpx;
+}

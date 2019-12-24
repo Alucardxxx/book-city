@@ -1,2 +1,20 @@
 <!--pages/explore/explore.wxml-->
-<text>pages/explore/explore.wxml</text>
+<import src ="../template/template.wxml"/>
+
+<view class="container">
+<view class="header">
+<text>探索</text>
+<view class="header-img">
+<image hidden="{{fk2}}" bindtap='click1' src="/img/fk2.png"/>
+<image hidden="{{fk22}}" src="/img/fk22.png"/>
+<image hidden="{{fk1}}" src="/img/fk1.png"/>
+<image hidden="{{fk11}}" bindtap='click2' src="/img/fk11.png"/>
+</view>
+</view>
+<view hidden="{{fk1}}">
+<template is="exprole1"/>
+</view>
+<view hidden="{{fk22}}">
+<template is="exprole2"/>
+</view>
+</view>

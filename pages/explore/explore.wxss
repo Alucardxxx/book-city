@@ -1,1 +1,25 @@
 /* pages/explore/explore.wxss */
+@import "../template/template.wxss";
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.header-img{
+  display: inline-flex;
+  margin-left: 180rpx;
+
+}
+
+.header image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left:20rpx;
+}
+
+.header text{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+  margin-left: 334rpx;
+}

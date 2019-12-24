@@ -1,0 +1,21 @@
+/* pages/science-fiction/science-fiction.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 650rpx;
+  margin: 0 auto;
+
+}
+
+.header text{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.header image{
+   width: 40rpx;
+  height: 40rpx;
+
+}

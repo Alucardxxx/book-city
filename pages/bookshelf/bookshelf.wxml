@@ -1,2 +1,68 @@
 <!--pages/bookshelf/bookshelf.wxml-->
-<text>pages/bookshelf/bookshelf.wxml</text>
+<view class="header">
+<text>书架</text>
+<image src="/img/sh.png"/>
+</view>
+<view class="bookshelf-body">
+<view class="already-read">
+<view class="page-title">
+<text class="ranking">正在阅读</text>
+<text class="view-all">查看全部 ></text>
+</view>
+<view class="new-release">
+<view class="new-release-list">
+<image src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+</view>
+</view>
+<view class="unread">
+<view class="page-title">
+<text class="ranking">未读</text>
+<text class="view-all">查看全部 ></text>
+</view>
+<view class="new-release">
+<view class="new-release-list">
+<image src="/img/wljs.jpg"/>
+<text class="new-book">未来简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/zsdjy.jpg"/>
+<text class="new-book">自私的基因</text>
+<text class="author">理查德.道金斯</text>
+</view>
+<view class="new-release-list">
+<image src="/img/bngd.jpg"/>
+<text class="new-book">百年孤独</text>
+<text class="author">马尔克斯</text>
+</view>
+<view class="new-release-list">
+<image src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+</view>
+</view>
+</view>

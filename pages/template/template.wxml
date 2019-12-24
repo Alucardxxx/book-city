@@ -1,0 +1,36 @@
+<!--pages/template/template.wxml-->
+<template name="exprole1">
+  <view class="exprole1-body">
+ <image class="exprole1-img" src="/img/st.jpg"/>
+ <text class="exprole1-book">三体：死神永生</text>
+ <text class="exprole1-author">刘慈欣</text>
+ <view class="readerser-list">
+<image src="/img/dz1.jpg"/>
+ <image src="/img/dz2.jpg"/>
+ <image src="/img/dz3.jpg"/>
+ <image src="/img/dz4.jpg"/>
+ </view>
+ <text class="people-number">457人已阅读</text>
+  </view>
+</template>
+
+<template name="exprole2">
+<view class="exprole2-book">
+<view class="exprole2-book-list">
+<image src="/img/st.jpg"/>
+<text>三体：死神永生</text>
+</view>
+<view class="exprole2-book-list">
+<image src="/img/bngd.jpg"/>
+<text>百年孤独</text>
+</view>
+<view class="exprole2-book-list">
+<image src="/img/xsgmxj.jpg"/>
+<text>许三观卖血记</text>
+</view>
+<view class="exprole2-book-list">
+<image src="/img/wljs.jpg"/>
+<text>未来简史</text>
+</view>
+</view>
+</template>

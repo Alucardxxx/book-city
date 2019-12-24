@@ -1,0 +1,8 @@
+<!--pages/science-fiction/science-fiction.wxml-->
+<view class="container">
+<view class="header">
+<image bindtap="back" src="/img/left.png"/>
+<text>科幻</text>
+<image src="/img/sh.png"/>
+</view>
+</view>
