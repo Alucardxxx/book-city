@@ -2,7 +2,7 @@
 <view class="container">
 <view class="header">
 <text>我的</text>
-<image src="/img/sz.png"/>
+<image bindtap="setup" src="/img/sz.png"/>
 </view>
 <view class="my-information">
 <image class="head-portrait" src="/img/tx2.jpeg"/>
@@ -30,19 +30,19 @@
 <view class="information-bar">
 <view class="information-bar-list">
 <view>个人信息</view>
-<view class="details"> > </view>
+<view class="details"><image src="/img/right.png"/></view>
 </view>
 <view class="information-bar-list">
 <view>我的消息</view>
 <view class="my-news">6</view>
 </view>
-<view class="information-bar-list">
+<view bindtap="going" class="information-bar-list">
 <view>账户余额</view>
-<view class="details"> <text class="money">1347.6￥</text> > </view>
+<view class="details"> <text class="money">1347.6￥</text><image src="/img/right.png"/></view>
 </view>
 <view class="information-bar-list">
 <view>我的评论</view>
-<view class="details"> > </view>
+<view class="details"><image src="/img/right.png"/></view>
 </view>
 </view>
 </view>

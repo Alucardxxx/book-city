@@ -7,7 +7,7 @@
 <view class="already-read">
 <view class="page-title">
 <text class="ranking">正在阅读</text>
-<text class="view-all">查看全部 ></text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
 </view>
 <view class="new-release">
 <view class="new-release-list">
@@ -30,7 +30,7 @@
 <view class="unread">
 <view class="page-title">
 <text class="ranking">未读</text>
-<text class="view-all">查看全部 ></text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
 </view>
 <view class="new-release">
 <view class="new-release-list">

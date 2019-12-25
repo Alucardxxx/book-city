@@ -1,4 +1,4 @@
-// pages/my-page/my-page.js
+// pages/account-balance/account-balance.js
 Page({
 
   /**
@@ -7,16 +7,20 @@ Page({
   data: {
 
   },
-  setup(){
-    wx.navigateTo({
-      url: "/pages/set-up/set-up"
-    })
-  },
   going() {
     wx.navigateTo({
-      url: "/pages/account-balance/account-balance"
+      url: "/pages/recharge/recharge"
     })
   },
+
+  back() {
+    wx.navigateBack({
+      delta: 2
+    })
+  },
+
+
+
 
   /**
    * 生命周期函数--监听页面加载

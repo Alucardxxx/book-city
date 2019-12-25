@@ -1,0 +1,12 @@
+<!--pages/recharge/recharge.wxml-->
+<view class="container">
+<view class="header">
+<image bindtap="back" src="/img/left.png"/>
+<text>充值</text>
+</view>
+<view class="balance-body">
+<text class="balance-text">充值余额(元)</text>
+<view class="balance-number">￥ <input maxlength="7"/></view>
+</view>
+<view bindtap="payment" class="sign-out">下一步</view>
+</view>

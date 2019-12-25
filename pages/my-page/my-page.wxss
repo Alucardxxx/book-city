@@ -126,8 +126,15 @@ flex-wrap: wrap;
 }
 
 .information-bar-list .details{
-font-size: 44rpx;
+      display: flex;
+      align-items: center;
 }
+
+.details image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
 
 .information-bar-list .my-news{
   width: 40rpx;
@@ -142,5 +149,5 @@ font-size: 44rpx;
 
 .information-bar-list .money{
   color: #fb6894;
-  font-size: 36rpx;
+  font-size: 32rpx;
 }

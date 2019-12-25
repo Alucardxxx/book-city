@@ -34,3 +34,7 @@
 </view>
 </view>
 </template>
+
+<template name="payment">
+
+</template>

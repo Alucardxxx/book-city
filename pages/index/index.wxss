@@ -62,8 +62,19 @@
 }
 
 .view-all {
-  font-size: 26rpx;
+  display: flex;
+  align-items: center;
+}
+
+.view-all image{
+width: 26rpx;
+  height: 26rpx;
+  margin-top: 4rpx;
+}
+.view-all text{
+font-size: 26rpx;
   color: #999faf;
+  padding-right: 6rpx;
 }
 
 .classification-ranking {
@@ -84,7 +95,7 @@ margin-right:34rpx;
   height: 160rpx;
 }
 
-.classification-list text {
+.classification-list text{
   display: block;
   padding:20rpx 0;
   color: #fff;

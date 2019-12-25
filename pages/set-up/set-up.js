@@ -1,4 +1,4 @@
-// pages/my-page/my-page.js
+// pages/set-up/set-up.js
 Page({
 
   /**
@@ -7,14 +7,10 @@ Page({
   data: {
 
   },
-  setup(){
-    wx.navigateTo({
-      url: "/pages/set-up/set-up"
-    })
-  },
-  going() {
-    wx.navigateTo({
-      url: "/pages/account-balance/account-balance"
+
+  back() {
+    wx.navigateBack({
+      delta: 2
     })
   },
 

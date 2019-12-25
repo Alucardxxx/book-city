@@ -5,4 +5,72 @@
 <text>科幻</text>
 <image src="/img/sh.png"/>
 </view>
+<view class="science-body">
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/st.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">三体：死神永生</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：刘慈欣</text>
+</view>
+<text class="book-introduce">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+</view>
+</view>
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/wljs.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">未来简史</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：由瓦尔 . 郝拉里</text>
+</view>
+<text class="book-introduce">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+</view>
+</view>
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/xsgmxj.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">许三观卖血记</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：余华</text>
+</view>
+<text class="book-introduce">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+</view>
+</view>
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/bngd.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">百年孤独</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：马尔克斯</text>
+</view>
+<text class="book-introduce">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+</view>
+</view>
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/rljs.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">人类简史</text>
+<image src="/img/more.png"/>
+</view>
+<text class="hot-author">作者：由瓦尔 . 郝拉里</text>
+</view>
+<text class="book-introduce">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+</view>
+</view>
+
+</view>
 </view>

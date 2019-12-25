@@ -5,14 +5,14 @@
 <image src="/img/jb.png"/>
 <image src="/img/sh.png"/>
 </view>
-<view class="home-search"><image src="/img/sousuo.png"/>
+<view class="home-search"><image src="/img/sousuo.svg"/>
 <input placeholder="搜索..." placeholder-style="color:#999faf;"/>
 </view>
 </view>
 <view class="page-body">
 <view class="page-title">
 <text class="ranking">分类排行</text>
-<text class="view-all">查看全部 ></text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
 </view>
 <view class="classification-ranking">
 <view class="classification-list">
@@ -34,7 +34,7 @@
 </view>
 <view class="page-title">
 <text class="ranking">作者排行</text>
-<text class="view-all">查看全部 ></text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
 </view>
 <view class="classification-ranking">
 <view class="classification-list">
@@ -56,7 +56,7 @@
 </view>
 <view class="page-title">
 <text class="ranking">新发布</text>
-<text class="view-all">查看全部 ></text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
 </view>
 <view class="new-release">
 <view class="new-release-list">
@@ -102,7 +102,7 @@
 </view>
 <view class="page-title">
 <text class="ranking">热销榜</text>
-<text class="view-all">查看全部 ></text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
 </view>
 <view class="sell-well">
 <view class="sell-well-list">

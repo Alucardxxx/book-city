@@ -1,4 +1,4 @@
-// pages/my-page/my-page.js
+// pages/recharge/recharge.js
 Page({
 
   /**
@@ -7,15 +7,13 @@ Page({
   data: {
 
   },
-  setup(){
-    wx.navigateTo({
-      url: "/pages/set-up/set-up"
+  back() {
+    wx.navigateBack({
+      delta: 2
     })
   },
-  going() {
-    wx.navigateTo({
-      url: "/pages/account-balance/account-balance"
-    })
+  payment() {
+    
   },
 
   /**

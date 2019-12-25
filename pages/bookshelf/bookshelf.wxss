@@ -34,9 +34,21 @@
 }
 
 .view-all {
-  font-size: 26rpx;
-  color: #999faf;
+  display: flex;
+  align-items: center;
 }
+
+.view-all image{
+width: 26rpx;
+  height: 26rpx;
+  margin-top: 4rpx;
+}
+.view-all text{
+font-size: 26rpx;
+  color: #999faf;
+  padding-right: 6rpx;
+}
+
 
 .new-release{
   width: 650rpx;

@@ -19,3 +19,66 @@
   height: 40rpx;
 
 }
+
+.science-body{
+  width: 650rpx;
+  margin: 0 auto;
+  padding: 20rpx 0;
+}
+
+.sell-well-list{
+  background-color: #2a3139;
+  width: 100%;
+  border-radius: 20rpx;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 80rpx;
+  
+}
+
+.sell-well-img{
+  width: 164rpx;
+height: 250rpx;
+margin: -30rpx 0 0 30rpx;
+
+}
+
+.hot-text{
+  width: 400rpx;
+  padding:20rpx 0 20rpx 0;
+  margin-right: 30rpx;
+  
+}
+
+.hot-text-top{
+  border-bottom: 2rpx solid #4c5058;
+  padding-bottom: 20rpx;
+
+}
+.hot-title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.hot-title-text{
+  font-size:36rpx;
+  color: #fff;
+
+}
+.hot-title image{
+  width:40rpx;
+  height:40rpx;
+ 
+}
+
+.hot-author{
+  font-size: 24rpx;
+  color: #7c7f85;
+  
+}
+
+.book-introduce{
+  font-size:24rpx;
+   color: #999faf;
+}
