@@ -23,7 +23,7 @@
   font-size: 44rpx;
   color: #fff;
   padding-top: 30rpx;
-  letter-spacing: 1px;
+  letter-spacing: 2rpx;
 }
 
 .book-text-title {
@@ -31,7 +31,7 @@
   font-size: 30rpx;
   color: #868dab;
   padding: 20rpx 0;
-  letter-spacing: 1px;
+  letter-spacing: 2rpx;
 }
 
 .book-text {
@@ -39,7 +39,7 @@
   font-size: 24rpx;
   color: #868dab;
   line-height: 40rpx;
-  letter-spacing: 1px;
+  letter-spacing: 2rpx;
 }
 
 .fraction {
@@ -65,8 +65,8 @@
   align-items: center;
   justify-content: space-between;
   margin: 60rpx auto;
-  border-top: 1px solid #32363f;
-  border-bottom: 1px solid #32363f;
+  border-top: 2rpx solid #32363f;
+  border-bottom: 2rpx solid #32363f;
   margin-left: 54rpx;
   padding-right: 54rpx;
   height: 120rpx;
@@ -103,7 +103,7 @@
   margin: 0 auto;
   color: #868dab;
   font-size: 26rpx;
-  letter-spacing: 1px;
+  letter-spacing: 2rpx;
   line-height: 38rpx;
   
 }
@@ -166,7 +166,7 @@ padding-bottom: 160rpx;
   padding-top: 10rpx;
   color: #868dab;
   font-size: 24rpx;
-  letter-spacing: 1px;
+  letter-spacing: 2rpx;
   line-height: 38rpx;
 }
 

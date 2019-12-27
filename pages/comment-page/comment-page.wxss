@@ -21,7 +21,7 @@
   margin: 0 auto;
   color: #868dab;
   font-size: 26rpx;
-  letter-spacing: 1px;
+  letter-spacing: 2rpx;
   line-height: 38rpx;
   
 }
@@ -84,7 +84,7 @@ padding-bottom: 40rpx;
   padding-top: 10rpx;
   color: #868dab;
   font-size: 24rpx;
-  letter-spacing: 1px;
+  letter-spacing: 2rpx;
   line-height: 38rpx;
 }
 

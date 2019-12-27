@@ -5,21 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    
   },
   going() {
     wx.navigateTo({
       url: "/pages/recharge/recharge"
     })
   },
-
-  back() {
-    wx.navigateBack({
-      delta: 2
-    })
-  },
-
-
 
 
   /**

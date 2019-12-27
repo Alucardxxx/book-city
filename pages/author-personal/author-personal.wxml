@@ -88,6 +88,9 @@
 </view>
 </view>
 </view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{Modalbg}}"></view>
+
 <view hidden="{{close}}" class="share-page">
 <template is="share-page"/>
 </view>

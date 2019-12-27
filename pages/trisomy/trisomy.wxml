@@ -67,7 +67,7 @@
 <text class="try-to-see">试看</text><text class="buy">购买</text>
 </view>
 
-<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{Modalbg}}"></view>
  
 <view class="modalDlg" wx:if="{{showModal}}">
     <image src="/img/st.jpg"/>

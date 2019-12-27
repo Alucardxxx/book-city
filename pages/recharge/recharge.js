@@ -5,15 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    close: true,
+    Modalbg: false
   },
-  back() {
-    wx.navigateBack({
-      delta: 2
+ 
+  payment() {
+    this.setData({
+      close: false,
+      Modalbg: true
     })
   },
-  payment() {
-    
+  close() {
+    this.setData({
+      close: true,
+      Modalbg: false
+    })
+
   },
 
   /**

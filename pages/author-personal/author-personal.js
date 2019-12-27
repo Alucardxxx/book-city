@@ -7,7 +7,8 @@ Page({
   data: {
     close: true,
     follow1:false,
-    follow2:true
+    follow2:true,
+    Modalbg: false
   },
 
   /**
@@ -20,7 +21,7 @@ Page({
   follow1(){
     this.setData({
     follow1: true,
-    follow2: false
+    follow2: false,
 
     }),
       wx.showToast({
@@ -32,7 +33,7 @@ Page({
 
   follow2() {
     this.setData({
-    follow1: false,
+    follow1: true,
     follow2: true
     }),
     wx.showToast({
@@ -44,12 +45,14 @@ Page({
 
   open() {
     this.setData({
-      close: false
+      close: false,
+      Modalbg: true
     })
   },
   close() {
     this.setData({
-      close: true
+      close: true,
+      Modalbg: false
     })
 
   },

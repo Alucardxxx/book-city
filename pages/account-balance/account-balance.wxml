@@ -8,4 +8,6 @@
 <text class="balance-number">1347.6</text>
 </view>
 <view bindtap="going" class="sign-out">充值</view>
+
+
 </view>

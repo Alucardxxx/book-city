@@ -9,29 +9,34 @@ Page({
     collection1:false,
     collection2:true,
     showModal: false,
+    Modalbg: false,
     close: true
   },
   open(){
     this.setData({
-      close: false
+      close: false,
+       Modalbg: true
     })
   },
   close() {
     this.setData({
-      close: true
+      close: true,
+      Modalbg: false
     })
   
   },
 
   submit: function () {
     this.setData({
-      showModal: true
+      showModal: true,
+      Modalbg: true
     })
   },
   
   go: function () {
     this.setData({
-      showModal: false
+      showModal: false,
+      Modalbg: false
     })
 
   },
