@@ -1,12 +1,10 @@
 <!--pages/science-fiction/science-fiction.wxml-->
 <view class="container">
 <view class="header">
-<image bindtap="back" src="/img/left.png"/>
 <text>科幻</text>
-<image src="/img/sh.png"/>
 </view>
 <view class="science-body">
-<view class="sell-well-list">
+<view bindtap="details" class="sell-well-list">
 <image class="sell-well-img" src="/img/st.jpg"/>
 <view class="hot-text">
 <view class="hot-text-top">

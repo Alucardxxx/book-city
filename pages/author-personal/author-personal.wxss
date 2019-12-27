@@ -1,0 +1,209 @@
+/* pages/author-personal/author-personal.wxss */
+@import "../template/template.wxss";
+
+.header{
+  display: flex;
+ justify-content: center;
+  width: 650rpx;
+  margin: 0 auto;
+}
+
+.header text{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.my-information{
+   width:650rpx;
+   margin: 0 auto;
+   display: flex;
+   margin-top: 40rpx;
+}
+
+.head-portrait{
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 50%;
+}
+
+.information-text{
+  height:80px;
+  padding: 30rpx 0 0 30rpx;
+}
+
+.name{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.address{
+  padding-top: 20rpx;
+  display: block;
+  font-size: 28rpx;
+  color: #999faf;
+}
+
+.information-tail{
+  display: flex;
+  padding-top: 40rpx;
+}
+
+.share{
+  border: 2rpx solid #999faf;
+  width: 180rpx;
+  height: 54rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6rpx;
+}
+
+.follow{
+  border: 0;
+  margin-left: 20rpx;
+  background-color: #478ce0;
+}
+
+.follow-txt{
+  color: #fff;
+  font-size: 24rpx;
+}
+
+.share image{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0 10rpx 0 0;
+
+}
+
+.fx{
+  font-size: 24rpx;
+color: #999faf;
+}
+
+.number{
+  display: flex;
+ width:650rpx;
+  margin: 40rpx auto;
+  border-radius: 14rpx;
+  background-color: #2b323b;
+  justify-content: center;
+  padding: 20rpx 0 20rpx 0;
+}
+
+.number-list{
+text-align: center;
+font-size: 34rpx;
+color: #fff;
+padding:0 60rpx; 
+
+}
+
+.fans{
+  border-left: 2rpx solid #363c45;
+  border-right: 2rpx solid #363c45;
+}
+
+.number-list text{
+  display: block;
+font-size: 23rpx;
+color: #999faf;
+padding-top: 14rpx;
+}
+
+.page-title {
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20rpx;
+  margin: 0 auto;
+}
+
+.ranking {
+  font-size: 34rpx;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.view-all {
+ font-size: 26rpx;
+  color: #478ce0;
+  letter-spacing: 1px;
+
+}
+.trisomy-header {
+  display: flex;
+  width: 698rpx;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #32363f;
+  margin-left: 50rpx;
+  padding:40rpx 0 30rpx 0;
+
+}
+
+.book-cover {
+  display: block;
+  width: 170rpx;
+  height: 252rpx;
+}
+
+.trisomy-header-right {
+  width: 450rpx;
+  padding-right: 40rpx;
+}
+
+.book-title {
+  display: block;
+  font-size: 34rpx;
+  color: #fff;
+  padding-top: 20rpx;
+  letter-spacing: 1px;
+}
+
+.book-text-title {
+  display: block;
+font-size: 26rpx;
+  color: #478ce0;
+  padding: 20rpx 0;
+  letter-spacing: 1px;
+}
+
+.book-text {
+  display: block;
+  font-size: 24rpx;
+  color: #868dab;
+  padding-top: 10rpx;
+  letter-spacing: 1px;
+}
+
+.fraction {
+  display: flex;
+  align-items: center;
+  padding-top: 10rpx;
+}
+
+.fraction image {
+  width: 28rpx;
+  height: 28rpx;
+  margin: 0 4rpx;
+}
+
+.fraction text {
+  color: #ffce44;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+}
+
+.share-page{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+}
+
+
+
+

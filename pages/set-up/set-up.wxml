@@ -1,7 +1,6 @@
 <!--pages/set-up/set-up.wxml-->
 <view class="container">
 <view class="header">
-<image bindtap="back" src="/img/left.png"/>
 <text>设置</text>
 </view>
 <view class="information-bar">

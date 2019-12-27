@@ -1,0 +1,65 @@
+<!--pages/comment-page/comment-page.wxml-->
+<view class="container">
+<view class="header">
+<text>评论</text>
+</view>
+<view class="brief-introduction comment-body">
+<view class="comment-header">
+<view class="comment-header-title">
+<text>评论</text>
+<text class="comment-header-text">215条评论</text>
+</view>
+<image bindtap="comment" src="/img/pl.svg"/>
+</view>
+<view class="comment-header-img">
+<image src="/img/tx5.jpeg"/><text>爱丽丝</text>
+</view>
+<view class="comment">
+无限长的曲线就是宇宙的抽象，一头连着无限的过去，一头连着无限的未来，中间只有无规律无生命的随机起伏，一个个高低错落的波峰就像一粒粒大小不等的沙子，整条曲线就像是所有沙粒排成行形成的一维沙漠，荒凉寂寥，长得更令人无法忍受。你可以沿着它向前向后走无限远，但永远找不到归宿。像一粒粒大小不等的沙子
+</view>
+<view class="comment-tail">
+<view class="comment-tail-time"><text>12-04</text><text>21:20</text></view>
+<view class="comment-tail-text"><image src="/img/xin1.svg"/><text>132</text><image src="/img/pl2.svg"/><text>89</text></view>
+</view>
+<view class="comment-header-img">
+<image src="/img/tx4.jpeg"/><text>白芊芊</text>
+</view>
+<view class="comment">
+三体世界已经让我厌倦了。我们的生活和精神中除了为生存而战就没有其他来西了。” “这有什么错吗？”“当然没有错，生存是其他一切的前提，但，元首，请看看我们的生活：一切都是为了文明的生存。为了整个文明的生存，对个体的尊重几乎不存在，个人不能工作就得死；三体社会处于极端的专制之中
+</view>
+<view class="comment-tail">
+<view class="comment-tail-time"><text>12-03</text><text>12:40</text></view>
+<view class="comment-tail-text"><image src="/img/xin1.svg"/><text>128</text><image src="/img/pl2.svg"/><text>79</text></view>
+</view>
+<view class="comment-header-img">
+<image src="/img/tx4.jpeg"/><text>白芊芊</text>
+</view>
+<view class="comment">
+三体世界已经让我厌倦了。我们的生活和精神中除了为生存而战就没有其他来西了。” “这有什么错吗？”“当然没有错，生存是其他一切的前提，但，元首，请看看我们的生活：一切都是为了文明的生存。为了整个文明的生存，对个体的尊重几乎不存在，个人不能工作就得死；三体社会处于极端的专制之中
+</view>
+<view class="comment-tail">
+<view class="comment-tail-time"><text>12-03</text><text>12:40</text></view>
+<view class="comment-tail-text"><image src="/img/xin1.svg"/><text>128</text><image src="/img/pl2.svg"/><text>79</text></view>
+</view>
+<view class="comment-header-img">
+<image src="/img/tx4.jpeg"/><text>白芊芊</text>
+</view>
+<view class="comment">
+三体世界已经让我厌倦了。我们的生活和精神中除了为生存而战就没有其他来西了。” “这有什么错吗？”“当然没有错，生存是其他一切的前提，但，元首，请看看我们的生活：一切都是为了文明的生存。为了整个文明的生存，对个体的尊重几乎不存在，个人不能工作就得死；三体社会处于极端的专制之中
+</view>
+<view class="comment-tail">
+<view class="comment-tail-time"><text>12-03</text><text>12:40</text></view>
+<view class="comment-tail-text"><image src="/img/xin1.svg"/><text>128</text><image src="/img/pl2.svg"/><text>79</text></view>
+</view>
+<view class="comment-header-img">
+<image src="/img/tx4.jpeg"/><text>白芊芊</text>
+</view>
+<view class="comment">
+三体世界已经让我厌倦了。我们的生活和精神中除了为生存而战就没有其他来西了。” “这有什么错吗？”“当然没有错，生存是其他一切的前提，但，元首，请看看我们的生活：一切都是为了文明的生存。为了整个文明的生存，对个体的尊重几乎不存在，个人不能工作就得死；三体社会处于极端的专制之中
+</view>
+<view class="comment-tail">
+<view class="comment-tail-time"><text>12-03</text><text>12:40</text></view>
+<view class="comment-tail-text"><image src="/img/xin1.svg"/><text>128</text><image src="/img/pl2.svg"/><text>79</text></view>
+</view>
+</view>
+</view>

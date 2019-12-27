@@ -1,7 +1,6 @@
 <!--pages/bookshelf/bookshelf.wxml-->
 <view class="header">
 <text>书架</text>
-<image src="/img/sh.png"/>
 </view>
 <view class="bookshelf-body">
 <view class="already-read">

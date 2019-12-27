@@ -4,20 +4,11 @@
   top:0;
   background-color: #22272d;
   width:100%; 
-}
-.page-header-icon{
-   display: flex;
-  justify-content: space-between;
-   width: 650rpx;
-   margin: 0 auto;
-   padding:10rpx 0 20rpx 0;
-
+  padding-bottom: 20rpx;
 }
 
-.page-header-icon image{
-   width: 40rpx;
-  height: 40rpx;
-}
+
+
 .home-search {
   width: 650rpx;
   height: 96rpx;
@@ -44,7 +35,7 @@
 }
 
 .page-body{
-  padding-top:160rpx;
+  padding-top:100rpx;
 }
 
 .page-title {

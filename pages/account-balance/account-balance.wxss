@@ -2,7 +2,7 @@
 
 .header{
   display: flex;
-  align-items: center;
+ justify-content: center;
   width: 650rpx;
   margin: 0 auto;
 }
@@ -11,14 +11,8 @@
   display: block;
   font-size: 40rpx;
   color: #fff;
-   margin-left: 200rpx;
 }
 
-.header image{
-   width: 40rpx;
-  height: 40rpx;
-
-}
 
 .balance-body{
   width: 650rpx;
@@ -59,7 +53,7 @@
   position: absolute;
   bottom:0;
   border-radius: 8rpx;
-  border: 8rpx solid #22272d;
+  border: 4rpx solid #22272d;
   box-sizing: border-box;
 
 }

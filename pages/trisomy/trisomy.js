@@ -1,23 +1,73 @@
-// pages/my-page/my-page.js
+// pages/trisomy/trisomy.js
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-   
+    collection1:false,
+    collection2:true,
+    showModal: false,
+    close: true
+  },
+  open(){
+    this.setData({
+      close: false
+    })
+  },
+  close() {
+    this.setData({
+      close: true
+    })
+  
+  },
+
+  submit: function () {
+    this.setData({
+      showModal: true
+    })
   },
   
-  setup(){
-    wx.navigateTo({
-      url: "/pages/set-up/set-up"
+  go: function () {
+    this.setData({
+      showModal: false
+    })
+
+  },
+  collectiony(){
+    this.setData({
+      
+      collection1: true,
+      collection2: false,
+     
+    })
+    
+    wx.showToast({
+      title: '已收藏',
+      icon: 'success',
+      duration: 1000
+    })
+
+  },
+  collectionn() {
+    this.setData({
+      collection1: false,
+      collection2: true,
+    })
+
+    wx.showToast({
+      title: '取消收藏',
+      icon: 'success',
+      duration: 1000
     })
   },
-  going(){
+  comment(){
     wx.navigateTo({
-      url: "/pages/account-balance/account-balance"
+      url: "/pages/comment-page/comment-page"
     })
   },
+  
 
   /**
    * 生命周期函数--监听页面加载

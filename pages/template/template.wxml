@@ -35,6 +35,14 @@
 </view>
 </template>
 
-<template name="payment">
-
+<template name="share-page">
+<view class="share-body">
+<image bindtap="close" class="close" src="/img/cha.svg"/>
+<view class="share-list">
+<image src="/img/pyq.svg"/>
+<image src="/img/qqkj.svg"/>
+<image src="/img/wb.svg"/>
+<image src="/img/qq.svg"/>
+</view>
+</view>
 </template>

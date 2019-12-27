@@ -1,0 +1,82 @@
+<!--pages/trisomy/trisomy.wxml-->
+<import src ="../template/template.wxml"/>
+
+<view class="container">
+<view class="trisomy-header">
+<image class="book-cover" src="/img/st.jpg"/>
+<view class="trisomy-header-right">
+<text class="book-title">三体：死神永生</text>
+<text class="book-text-title">作者：刘慈欣</text>
+<text class="book-text">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+<view class="fraction">
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<text>5.0</text>
+</view>
+</view>
+</view>
+<view class="collection">
+<view class="collection-list">
+<image bindtap="collectiony" hidden="{{collection1}}" src="/img/xin1.svg"/>
+<image bindtap="collectionn" hidden="{{collection2}}" src="/img/xin2.svg"/>
+<text>收藏</text></view>
+<view class="collection-list"><image bindtap="open"  src="/img/fx2.svg"/><text>分享</text></view>
+<view class="collection-list"><image bindtap="submit" src="/img/frsj.svg"/><text>放入书架</text></view>
+</view>
+<view class="brief-introduction">
+<text class="brief-introduction-title">详情</text>
+身患绝症的云天明买下一颗星星送给暗恋着的大学同学程心，而程心因参与（PIA）向三体舰队发射探测器的工作，却想让航天专业背景的他放弃安乐死，作为被执行人将大脑捐献给阶梯计划。与三体文明的战争背景
+</view>
+<view class="collection">
+<text class="view-directory">查看目录</text>
+<image class="view-directory-img" src="/img/right.png"/>
+</view>
+<view class="brief-introduction comment-body">
+<view class="comment-header">
+<view class="comment-header-title">
+<text>评论</text>
+<text class="comment-header-text">215条评论</text>
+</view>
+<image bindtap="comment" src="/img/pl.svg"/>
+</view>
+<view class="comment-header-img">
+<image src="/img/tx5.jpeg"/><text>爱丽丝</text>
+</view>
+<view class="comment">
+无限长的曲线就是宇宙的抽象，一头连着无限的过去，一头连着无限的未来，中间只有无规律无生命的随机起伏，一个个高低错落的波峰就像一粒粒大小不等的沙子，整条曲线就像是所有沙粒排成行形成的一维沙漠，荒凉寂寥，长得更令人无法忍受。你可以沿着它向前向后走无限远，但永远找不到归宿。像一粒粒大小不等的沙子
+</view>
+<view class="comment-tail">
+<view class="comment-tail-time"><text>12-04</text><text>21:20</text></view>
+<view class="comment-tail-text"><image src="/img/xin1.svg"/><text>132</text><image src="/img/pl2.svg"/><text>89</text></view>
+</view>
+<view class="comment-header-img">
+<image src="/img/tx4.jpeg"/><text>白芊芊</text>
+</view>
+<view class="comment">
+三体世界已经让我厌倦了。我们的生活和精神中除了为生存而战就没有其他来西了。” “这有什么错吗？”“当然没有错，生存是其他一切的前提，但，元首，请看看我们的生活：一切都是为了文明的生存。为了整个文明的生存，对个体的尊重几乎不存在，个人不能工作就得死；三体社会处于极端的专制之中
+</view>
+<view class="comment-tail">
+<view class="comment-tail-time"><text>12-03</text><text>12:40</text></view>
+<view class="comment-tail-text"><image src="/img/xin1.svg"/><text>128</text><image src="/img/pl2.svg"/><text>79</text></view>
+</view>
+</view>
+<view class="buy-see">
+<text class="try-to-see">试看</text><text class="buy">购买</text>
+</view>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+ 
+<view class="modalDlg" wx:if="{{showModal}}">
+    <image src="/img/st.jpg"/>
+    <text>已经将这本书加入到个人书架</text>
+    <view class="bottom" bindtap="go">好的</view>
+</view>
+
+<view hidden="{{close}}" class="share-page">
+<template is="share-page"/>
+</view>
+
+</view>

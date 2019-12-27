@@ -1,0 +1,297 @@
+/* pages/trisomy/trisomy.wxss */
+@import "../template/template.wxss";
+.trisomy-header {
+  display: flex;
+  width: 650rpx;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 40rpx;
+}
+
+.book-cover {
+  display: block;
+  width: 215rpx;
+  height: 320rpx;
+}
+
+.trisomy-header-right {
+  width: 388rpx;
+}
+
+.book-title {
+  display: block;
+  font-size: 44rpx;
+  color: #fff;
+  padding-top: 30rpx;
+  letter-spacing: 1px;
+}
+
+.book-text-title {
+  display: block;
+  font-size: 30rpx;
+  color: #868dab;
+  padding: 20rpx 0;
+  letter-spacing: 1px;
+}
+
+.book-text {
+  display: block;
+  font-size: 24rpx;
+  color: #868dab;
+  line-height: 40rpx;
+  letter-spacing: 1px;
+}
+
+.fraction {
+  display: flex;
+  align-items: center;
+  padding-top: 20rpx;
+}
+
+.fraction image {
+  width: 28rpx;
+  height: 28rpx;
+  margin: 0 4rpx;
+}
+
+.fraction text {
+  color: #ffce44;
+  font-size: 42rpx;
+  padding-left: 20rpx;
+}
+
+.collection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60rpx auto;
+  border-top: 1px solid #32363f;
+  border-bottom: 1px solid #32363f;
+  margin-left: 54rpx;
+  padding-right: 54rpx;
+  height: 120rpx;
+}
+
+.collection-list {
+  display: flex;
+  align-items: center;
+}
+
+.collection-list image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.collection-list text {
+  color: rgb(243, 243, 243);
+  font-size: 28rpx;
+  padding-left: 20rpx;
+}
+
+.view-directory {
+  color: #fff;
+  font-size: 34rpx;
+}
+
+.view-directory-img {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.brief-introduction {
+  width: 650rpx;
+  margin: 0 auto;
+  color: #868dab;
+  font-size: 26rpx;
+  letter-spacing: 1px;
+  line-height: 38rpx;
+  
+}
+.comment-body{
+padding-bottom: 160rpx;
+}
+.brief-introduction-title {
+  color: #fff;
+  font-size: 34rpx;
+  display: block;
+  padding-bottom: 20rpx;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-header image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.comment-header-title {
+  display: flex;
+  align-items: center;
+  font-size: 38rpx;
+  color: #fff;
+}
+
+.comment-header-text {
+  font-size: 24rpx;
+  color: #1254a5;
+  padding-left: 20rpx;
+}
+
+.comment-header-img {
+  display: flex;
+  padding-top: 40rpx;
+}
+
+.comment-header-img image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+
+.comment-header-img text {
+  font-size: 30rpx;
+  color: #fff;
+  padding-top: 10rpx;
+  padding-left: 20rpx;
+}
+
+.comment {
+  display: block;
+  width: 580rpx;
+  padding-left: 80rpx;
+  padding-top: 10rpx;
+  color: #868dab;
+  font-size: 24rpx;
+  letter-spacing: 1px;
+  line-height: 38rpx;
+}
+
+.comment-tail {
+  font-size: 24rpx;
+  color: #565b6a;
+  display: flex;
+  justify-content: space-between;
+  width: 580rpx;
+  padding-left: 80rpx;
+  margin: 30rpx 0;
+ 
+}
+
+.comment-tail-time text{
+  padding-right: 14rpx;
+}
+.comment-tail-text{
+  display: flex;
+  align-items: center;
+  
+}
+.comment-tail-text image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-left: 30rpx;
+}
+
+.comment-tail-text text{
+   padding-left: 12rpx;
+}
+
+.buy-see{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #373a49;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   font-size: 28rpx;
+  color: #fff;
+  padding: 30rpx 0;
+  border: 4rpx solid #22272d;
+
+}
+
+.try-to-see{
+ height: 98rpx;
+ width: 200rpx;
+ background-color: #9295a9;
+ text-align: center;
+ line-height: 98rpx;
+ margin-right: 20rpx;
+ border-radius: 50rpx;
+}
+
+.buy{
+ height: 98rpx;
+ width: 400rpx;
+ background-color: #fb6894;
+  text-align: center;
+ line-height: 98rpx;
+ border-radius: 50rpx;
+ margin-left: 20rpx;
+}
+
+
+
+.mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 4;
+    opacity: 0.7;
+}
+ 
+.modalDlg{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    z-index: 5;
+    transform:translate(-50%,-50%);
+    background-color: #363947;
+    border-radius: 36rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60rpx 80rpx;
+
+}
+
+.modalDlg image{
+width:216rpx;
+height: 326rpx;
+}
+
+.modalDlg text{
+width:362rpx;
+font-size: 38rpx;
+color: #fff;
+text-align: center;
+padding: 40rpx 0;
+ line-height: 54rpx;
+}
+
+.modalDlg .bottom{
+width:368rpx;
+font-size: 28rpx;
+ background-color: #fb6894;
+color: #fff;
+padding: 30rpx 0;
+border-radius: 48rpx;
+text-align: center;
+}
+
+.share-page{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+}
+
+
+

@@ -1,10 +1,6 @@
 <!--index.wxml-->
 <view class="container">
 <view class="page-header">
-<view class="page-header-icon">
-<image src="/img/jb.png"/>
-<image src="/img/sh.png"/>
-</view>
 <view class="home-search"><image src="/img/sousuo.svg"/>
 <input placeholder="搜索..." placeholder-style="color:#999faf;"/>
 </view>
@@ -38,7 +34,7 @@
 </view>
 <view class="classification-ranking">
 <view class="classification-list">
-<image src="/img/tx1.jpg"/>
+<image bindtap="personal" src="/img/tx1.jpg"/>
 <text>刘慈欣</text>
 </view>
 <view class="classification-list">
@@ -60,7 +56,7 @@
 </view>
 <view class="new-release">
 <view class="new-release-list">
-<image src="/img/st.jpg"/>
+<image bindtap="details" src="/img/st.jpg"/>
 <text class="new-book">三体：死神永生</text>
 <text class="author">刘慈欣</text>
 </view>
@@ -105,7 +101,7 @@
 <view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
 </view>
 <view class="sell-well">
-<view class="sell-well-list">
+<view bindtap="details" class="sell-well-list">
 <image class="sell-well-img" src="/img/st.jpg"/>
 <view class="hot-text">
 <view class="hot-text-top">

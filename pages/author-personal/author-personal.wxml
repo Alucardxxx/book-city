@@ -1,0 +1,96 @@
+<!--pages/author-personal/author-personal.wxml-->
+<import src ="../template/template.wxml"/>
+
+<view class="container">
+<view class="header">
+<text>作者</text>
+</view>
+<view class="my-information">
+<image class="head-portrait" src="/img/tx1.jpg"/>
+<view class="information-text">
+<text class="name">刘慈欣</text>
+<text class="address">浙江 . 绍兴</text>
+<view class="information-tail">
+<view bindtap="open" class="share"><image src="/img/fx.png"/><text class="fx">分享</text>
+</view>
+<view bindtap="follow2" hidden="{{follow2}}" class="share follow"><image src="/img/dh.svg"/><text class="follow-txt">已关注</text>
+</view>
+<view bindtap="follow1" hidden="{{follow1}}" class="share follow"><image src="/img/jia.svg"/><text class="follow-txt">关注</text>
+</view>
+</view>
+</view>
+</view>
+<view class="number">
+<view class="number-list">
+1286
+<text>关注</text>
+</view>
+<view class="number-list fans">
+3368
+<text>粉丝</text>
+</view>
+<view class="number-list">
+6676
+<text>喜欢</text>
+</view>
+</view>
+<view class="page-title">
+<text class="ranking">代表作</text>
+<text class="view-all">总共3本书</text>
+</view>
+<view class="representative">
+<view class="trisomy-header">
+<image class="book-cover" src="/img/st.jpg"/>
+<view class="trisomy-header-right">
+<text class="book-title">三体：死神永生</text>
+<view class="fraction">
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<text>5.0</text>
+</view>
+<text class="book-text">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+<text class="book-text-title">366 人阅读</text>
+</view>
+</view>
+<view class="trisomy-header">
+<image class="book-cover" src="/img/bngd.jpg"/>
+<view class="trisomy-header-right">
+<text class="book-title">三体：黑暗森林</text>
+<view class="fraction">
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<text>5.0</text>
+</view>
+<text class="book-text">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+<text class="book-text-title">366 人阅读</text>
+</view>
+</view>
+<view class="trisomy-header">
+<image class="book-cover" src="/img/wljs.jpg"/>
+<view class="trisomy-header-right">
+<text class="book-title">三体</text>
+<view class="fraction">
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<image src="/img/xing.svg"/>
+<text>5.0</text>
+</view>
+<text class="book-text">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+<text class="book-text-title">366 人阅读</text>
+</view>
+</view>
+</view>
+<view hidden="{{close}}" class="share-page">
+<template is="share-page"/>
+</view>
+
+
+</view>

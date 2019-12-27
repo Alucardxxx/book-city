@@ -1,8 +1,13 @@
 /* pages/explore/explore.wxss */
 @import "../template/template.wxss";
 .header{
+  width: 100%;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #22272d;
+  padding-bottom: 20rpx;
 }
 
 .header-img{

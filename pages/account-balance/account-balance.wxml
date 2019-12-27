@@ -1,7 +1,6 @@
 <!--pages/account-balance/account-balance.wxml-->
 <view class="container">
 <view class="header">
-<image bindtap="back" src="/img/left.png"/>
 <text>账户余额</text>
 </view>
 <view class="balance-body">

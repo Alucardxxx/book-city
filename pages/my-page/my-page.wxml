@@ -1,4 +1,5 @@
 <!--pages/my-page/my-page.wxml-->
+
 <view class="container">
 <view class="header">
 <text>我的</text>
@@ -10,7 +11,7 @@
 <text class="name">翟萌萌</text>
 <text class="address">中国 . 河南</text>
 </view>
-<view class="share"><image src="/img/fx.png"/><text>分享</text>
+<view bindtap="open" class="share"><image src="/img/fx.png"/><text>分享</text>
 </view>
 </view>
 <view class="number">
@@ -45,4 +46,5 @@
 <view class="details"><image src="/img/right.png"/></view>
 </view>
 </view>
+
 </view>

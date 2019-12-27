@@ -1,7 +1,6 @@
 <!--pages/recharge/recharge.wxml-->
 <view class="container">
 <view class="header">
-<image bindtap="back" src="/img/left.png"/>
 <text>充值</text>
 </view>
 <view class="balance-body">

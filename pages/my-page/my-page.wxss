@@ -1,4 +1,6 @@
 /* pages/my-page/my-page.wxss */
+
+
 .header{
   display: flex;
   align-items: center;
@@ -151,3 +153,4 @@ flex-wrap: wrap;
   color: #fb6894;
   font-size: 32rpx;
 }
+
