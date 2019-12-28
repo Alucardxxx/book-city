@@ -1,0 +1,185 @@
+<!--pages/all-authors/all-authors.wxml-->
+<view class="header">
+<text>作者</text>
+</view>
+<view class="authors-header">
+<view class="authors-header-list">
+<image class="an-crown" src="/img/hgf.svg"/>
+<image class="head-portrait" src="/img/tx1.jpg"/>
+<text class="ranking ranking1">2</text>
+<text class="header-authors-name">余秋雨</text>
+<text class="funs-number">2827粉丝</text>
+</view>
+
+<view class="authors-header-list">
+<image class="an-crown2" src="/img/hgl.svg"/>
+<image class="head-portrait2" src="/img/tx3.jpg"/>
+<text class="ranking ranking3">1</text>
+<text class="header-authors-name3">刘慈欣</text>
+<text class="funs-number">4277粉丝</text>
+</view>
+
+<view class="authors-header-list">
+<image class="an-crown" src="/img/hgh.svg"/>
+<image class="head-portrait" src="/img/tx2.jpg"/>
+<text class="ranking ranking2">3</text>
+<text class="header-authors-name2">田小花</text>
+<text class="funs-number">1827粉丝</text>
+</view>
+</view>
+
+
+<view class="ranking-body">
+<view class="page-title">
+<text class="hot-ranking">热门作者</text>
+<view bindtap="categories" class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+<view class="ranking-people">
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view bindtap="tp1" hidden="{{hid1}}"  class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view bindtap="tp2" hidden="{{hid2}}" class="follow follow2"><text>已关注</text></view>
+</view>
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view bindtap="tp3" hidden="{{hid3}}" class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view bindtap="tp4" hidden="{{hid4}}"  class="follow follow2"><text>已关注</text></view>
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view bindtap="tp5" hidden="{{hid5}}" class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view bindtap="tp6" hidden="{{hid6}}" class="follow follow2"><text>已关注</text></view>
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view bindtap="tp7" hidden="{{hid7}}" class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view bindtap="tp8" hidden="{{hid8}}" class="follow follow2"><text>已关注</text></view>
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view bindtap="tp9" hidden="{{hid9}}" class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view bindtap="tp10" hidden="{{hid10}}" class="follow follow2"><text>已关注</text></view>
+</view>
+
+</view>
+<view class="page-title">
+<text class="hot-ranking">新晋作者</text>
+<view bindtap="categories" class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+<view class="ranking-people">
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view  class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view  class="follow follow2 list"><text>已关注</text></view>
+</view>
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view class="follow follow2 list"><text>已关注</text></view>
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view  class="follow follow2 list"><text>已关注</text></view>
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view  class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view  class="follow follow2 list"><text>已关注</text></view>
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view  class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<view class="follow follow2 list"><text>已关注</text></view>
+</view>
+
+
+</view>
+<view class="page-title">
+<text class="hot-ranking">其他作者</text>
+<view bindtap="categories" class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+<view class="ranking-people">
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view  class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<!-- <view  class="follow follow2 "><text>已关注</text></view> -->
+</view>
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<!-- <view class="follow follow2"><text>已关注</text></view> -->
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<!-- <view  class="follow follow2"><text>已关注</text></view> -->
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view  class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<!-- <view  class="follow follow2"><text>已关注</text></view> -->
+</view>
+
+
+<view class="ranking-list">
+<image src="/img/tx2.jpeg"/>
+<text class="name">王媛媛</text>
+<view  class="follow follow1"><image src="/img/jia.svg"/><text>关注</text></view>
+
+<!-- <view class="follow follow2"><text>已关注</text></view> -->
+</view>
+
+</view>
+
+</view>

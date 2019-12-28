@@ -1,0 +1,130 @@
+/* pages/search-page/search-page.wxss */
+
+.page-header{
+  background-color: #22272d;
+  width:650rpx; 
+  margin: 0 auto;
+  padding-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-text{
+  font-size: 28rpx;
+  color: #999faf;
+
+}
+
+.home-search {
+  width: 550rpx;
+  height: 96rpx;
+  background-color: #2e353d;
+  border-radius: 60rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+
+.home-search input {
+  height: 100%;
+  font-size: 32rpx;
+  color: #999faf;
+  margin-left: 20rpx;
+}
+
+.home-search image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 28rpx;
+}
+
+.page-title {
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40rpx 0 20rpx 0rpx;
+  margin: 0 auto;
+}
+
+.ranking {
+  font-size: 36rpx;
+  color: #fff;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+}
+
+.view-all image{
+width: 26rpx;
+  height: 26rpx;
+  margin-top: 4rpx;
+}
+.view-all text{
+font-size: 26rpx;
+  color: #999faf;
+  padding-right: 6rpx;
+}
+
+.new-release{
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+  flex-wrap: wrap;
+
+}
+
+.new-release-list {
+padding: 0 0 40rpx 0;
+}
+
+
+.new-release-list image{
+  display: block;
+  width: 192rpx;
+  height:320rpx;
+  margin:20rpx 0;
+  
+}
+
+.new-release-list text{
+display: block;
+
+}
+
+.new-book{
+  font-size: 26rpx;
+  color: #fff;
+  padding: 10rpx 0;
+}
+
+.author{
+  font-size:22rpx;
+   color: #7d828f;
+}
+
+.popular-search{
+  width: 650rpx;
+  height:180rpx;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.popular-search text{
+  font-size:22rpx; 
+  display: block;
+  padding: 16rpx 38rpx;
+  margin-right:20rpx;
+  border-radius: 40rpx;
+  background-color: #45485b;
+  color: rgb(233, 229, 229);
+}
+
+

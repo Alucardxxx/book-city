@@ -1,59 +1,17 @@
-// pages/author-personal/author-personal.js
+// pages/shopping-cart/shopping-cart.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    close: true,
-    follow1:false,
-    follow2:true,
-    Modalbg: false
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
-  },
-
-  follow1(){
-    this.setData({
-    follow1: true,
-    follow2: false,
-
-    }),
-      wx.showToast({
-        title: '已关注',
-        icon: 'success',
-        duration: 1000
-      })
-  },
-
-  follow2() {
-    this.setData({
-    follow1: false,
-    follow2: true
-    }),
-    wx.showToast({
-      title: '取消关注',
-      icon: 'success',
-      duration: 1000
-    })
-  },
-
-  open() {
-    this.setData({
-      close: false,
-      Modalbg: true
-    })
-  },
-  close() {
-    this.setData({
-      close: true,
-      Modalbg: false
-    })
 
   },
 

@@ -109,6 +109,7 @@ font-size:90rpx;
       color: #75808d;
       padding-left: 40rpx;
       padding-top: 80rpx;
+      padding-bottom: 20rpx;
       letter-spacing: 2rpx;
 }
 
@@ -116,7 +117,6 @@ font-size:90rpx;
   padding-left: 44rpx;
     font-size: 90rpx;
   color: #fff;
-  padding-top: 40rpx;
   letter-spacing: 2rpx;
 }
 
@@ -147,5 +147,25 @@ letter-spacing: 0;
 }
 
 .fingerprint{
-  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60rpx 0;
+}
+
+.fingerprint image{
+  width: 68rpx;
+  height: 68rpx;
+}
+
+.fingerprint-text{
+  font-size: 34rpx;
+  color: #75808d;
+  padding: 0 10rpx;
+}
+
+.password-text{
+  font-size: 34rpx;
+  color: #fb6894;
+
 }

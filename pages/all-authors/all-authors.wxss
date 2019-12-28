@@ -1,0 +1,210 @@
+/* pages/all-authors/all-authors.wxss */
+.header{
+  display: flex;
+  justify-content: center;
+  width: 650rpx;
+  margin: 0 auto;
+}
+
+.header text{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.authors-header{
+  width: 650rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #32363f;
+  padding: 40rpx 0 30rpx 0;
+
+}
+
+.authors-header-list{
+  display: flex;
+  flex-direction:column;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.an-crown{
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: -12rpx;
+}
+
+.head-portrait{
+  width: 160rpx;
+  height: 160rpx;
+    border-radius: 50%;
+    border: 4rpx solid #fff;
+    
+}
+
+.head-portrait2{
+  width: 200rpx;
+  height: 200rpx;
+    border-radius: 50%;
+    border: 4rpx solid #fff;
+    
+}
+
+.an-crown2{
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: -20rpx;
+ 
+}
+
+.header-authors-name{
+font-size: 38rpx;
+color: #f44380;
+
+
+}
+
+.header-authors-name2{
+font-size: 38rpx;
+color: #00a2ff;
+
+}
+
+.header-authors-name3{
+font-size: 40rpx;
+color: #fdaf01;
+
+
+}
+
+.funs-number{
+  font-size: 28rpx;
+color: #868dab;
+padding-top: 10rpx;
+
+
+}
+
+.ranking{
+  width: 30rpx;
+  height: 30rpx;
+color: #fff;
+border: 4rpx solid #fff;
+border-radius: 50%;
+text-align: center;
+line-height: 30rpx;
+margin-top: -16rpx;
+font-size: 16rpx;
+}
+
+.ranking1{
+background-color: #f44380;
+}
+
+.ranking2{
+background-color: #00a2ff;
+}
+
+.ranking3{
+background-color: #fdaf01;
+}
+
+.page-title {
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60rpx 0 60rpx 0rpx;
+  margin: 0 auto;
+}
+
+.ranking-body{
+   border-bottom: 2rpx solid #32363f;
+}
+
+.hot-ranking {
+  font-size: 36rpx;
+  color: #fff;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+}
+
+.view-all image{
+width: 26rpx;
+  height: 26rpx;
+  margin-top: 4rpx;
+}
+.view-all text{
+font-size: 26rpx;
+  color: #999faf;
+  padding-right: 6rpx;
+}
+
+
+.ranking-list{
+  display: flex;
+   flex-direction:column;
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+.ranking-people{
+display: flex;
+justify-content: space-between;
+width: 800rpx;
+ padding-bottom: 80rpx;
+ margin-left: 50rpx;
+ border-bottom: 2rpx solid #32363f;
+ box-sizing: border-box;
+
+}
+
+.ranking-list image{
+width: 122rpx;
+height: 122rpx;
+border-radius: 50%;
+
+}
+
+.name{
+  font-size: 32rpx;
+  color: #868dab;
+  padding: 20rpx 0;
+
+}
+ 
+.follow{
+  font-size:22rpx;
+    width: 128rpx;
+    height: 46rpx;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6rpx;
+    box-sizing: border-box;
+}
+
+.follow image{
+  width: 20rpx;
+  height: 20rpx;
+}
+
+.ranking-list .follow1{
+border: 2rpx solid #868dab;
+}
+
+.ranking-list .follow2{
+background-color: #00a2ff;
+}
+
+.list{
+  display: none;
+}
+

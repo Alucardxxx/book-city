@@ -1,0 +1,144 @@
+/* pages/shopping-cart/shopping-cart.wxss */
+
+ .header{
+   width: 100%;
+  display: flex;
+  justify-content:center;
+  position: fixed;
+  top: 0;
+  background-color: #22272d;
+  padding-bottom: 20rpx;
+}
+
+.header text{
+  display: block;
+  font-size: 40rpx;
+  color: #fff;
+}
+
+
+
+.science-body{
+  width: 650rpx;
+  margin: 0 auto;
+  padding: 20rpx 0;
+}
+
+.sell-well-list{
+  background-color: #2a3139;
+  width: 100%;
+  border-radius: 20rpx;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 80rpx;
+  
+}
+
+.sell-well-img{
+  width: 164rpx;
+height: 250rpx;
+margin: -30rpx 0 0 30rpx;
+
+}
+
+.hot-text{
+  width: 400rpx;
+  padding:20rpx 0 20rpx 0;
+  margin-right: 30rpx;
+  
+}
+
+.hot-text-top{
+  border-bottom: 2rpx solid #4c5058;
+  padding-bottom: 20rpx;
+
+}
+.hot-title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.hot-title-text{
+  font-size:36rpx;
+  color: #fff;
+
+}
+.hot-title image{
+  width:40rpx;
+  height:40rpx;
+ 
+}
+
+.hot-author{
+  font-size: 24rpx;
+  color: #7c7f85;
+  
+}
+
+.book-introduce{
+  font-size:24rpx;
+   color: #999faf;
+}
+
+.book-money{
+  padding-top: 20rpx;
+  color: #fb6894;
+  font-size: 36rpx;
+}
+
+
+.sign-out{
+  width: 100%;
+  height: 140rpx;
+  background-color: #fb6894;
+  font-size: 40rpx;
+  color: #fff;
+  line-height: 144rpx;
+  text-align: center;
+ 
+  border-radius: 8rpx;
+  border: 4rpx solid #22272d;
+  box-sizing: border-box;
+
+}
+
+.science-body{
+  padding-bottom: 360rpx;
+}
+
+.settle{
+  width: 100%;
+   position: fixed;
+  bottom:0;
+  background-color: #22272d;
+
+}
+
+.settle-accounts{
+  width: 650rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+
+
+}
+
+.accounts{
+  display: flex;
+  align-items: center;
+}
+
+.settle-accounts-text1{
+   color: #fff;
+   font-size: 28rpx;
+}
+
+.settle-accounts-text2{
+   color: #fb6894;
+   font-size: 26rpx;
+   padding: 0 8rpx;
+  
+}
+

@@ -46,3 +46,286 @@
 </view>
 </view>
 </template>
+
+<!-- ///////////////////////////////////////////////////////////// -->
+<template name="science-fiction">
+<view class="page-body">
+<view class="page-title">
+<text class="ranking">新发布</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+<view class="new-release">
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+</view>
+<view class="page-title">
+<text class="ranking">热门</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+
+
+<view class="new-release">
+<view class="new-release-list">
+<image src="/img/wljs.jpg"/>
+<text class="new-book">未来简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/zsdjy.jpg"/>
+<text class="new-book">自私的基因</text>
+<text class="author">理查德.道金斯</text>
+</view>
+<view class="new-release-list">
+<image src="/img/bngd.jpg"/>
+<text class="new-book">百年孤独</text>
+<text class="author">马尔克斯</text>
+</view>
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+</view>
+</view>
+
+</template>
+<!-- ////////////////////////////////////////////////////////// -->
+
+<template name="gong-dou">
+
+<view class="page-body">
+<view class="page-title">
+<text class="ranking">新发布</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+<view class="new-release">
+
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+<view class="new-release-list">
+<image src="/img/bngd.jpg"/>
+<text class="new-book">百年孤独</text>
+<text class="author">马尔克斯</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+</view>
+<view class="page-title">
+<text class="ranking">热门</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+
+
+<view class="new-release">
+<view class="new-release-list">
+<image src="/img/wljs.jpg"/>
+<text class="new-book">未来简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/zsdjy.jpg"/>
+<text class="new-book">自私的基因</text>
+<text class="author">理查德.道金斯</text>
+</view>
+
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+
+</view>
+</view>
+
+</template>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////// -->
+
+<template name="workplace">
+
+<view class="page-body">
+<view class="page-title">
+<text class="ranking">新发布</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+<view class="new-release">
+
+<view class="new-release-list">
+<image src="/img/wljs.jpg"/>
+<text class="new-book">未来简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+</view>
+<view class="page-title">
+<text class="ranking">热门</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+
+
+<view class="new-release">
+<view class="new-release-list">
+<image src="/img/bngd.jpg"/>
+<text class="new-book">百年孤独</text>
+<text class="author">马尔克斯</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+<view class="new-release-list">
+<image src="/img/zsdjy.jpg"/>
+<text class="new-book">自私的基因</text>
+<text class="author">理查德.道金斯</text>
+</view>
+
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+
+</view>
+</view>
+
+</template>
+
+<!-- /////////////////////////////////////////////////////////////// -->
+
+<template name="technology">
+<view class="page-body">
+<view class="page-title">
+<text class="ranking">新发布</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+<view class="new-release">
+
+
+<view class="new-release-list">
+<image src="/img/zsdjy.jpg"/>
+<text class="new-book">自私的基因</text>
+<text class="author">理查德.道金斯</text>
+</view>
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+<view class="new-release-list">
+<image src="/img/bngd.jpg"/>
+<text class="new-book">百年孤独</text>
+<text class="author">马尔克斯</text>
+</view>
+
+</view>
+<view class="page-title">
+<text class="ranking">热门</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+
+
+<view class="new-release">
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+<view class="new-release-list">
+<image src="/img/wljs.jpg"/>
+<text class="new-book">未来简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+
+
+<view class="new-release-list">
+<image src="/img/rljs.jpg"/>
+<text class="new-book">人类简史</text>
+<text class="author">尤瓦尔.郝拉利</text>
+</view>
+
+</view>
+</view>
+
+</template>

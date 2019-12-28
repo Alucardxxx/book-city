@@ -6,20 +6,38 @@ Page({
    */
   data: {
     close: true,
-    Modalbg: false
+    Modalbg: false,
+    money:"",
+    values:""
   },
  
   payment() {
-    this.setData({
-      close: false,
-      Modalbg: true
-    })
+    if (this.data.money>0){
+      this.setData({
+        close: false,
+        Modalbg: true,
+        values: this.data.money
+      })
+  }else{
+      wx.showToast({
+        title: '请输入正确金额',
+        icon: '',
+        duration: 1000
+      })
+  }
+
   },
   close() {
     this.setData({
       close: true,
       Modalbg: false
     })
+
+  },
+  emailInput: function (e) {
+    this.setData({
+      money: e.detail.value
+    });
 
   },
 

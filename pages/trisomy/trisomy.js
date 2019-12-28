@@ -72,8 +72,18 @@ Page({
       url: "/pages/comment-page/comment-page"
     })
   },
+  look(){
+    wx.navigateTo({
+      url: "/pages/novel-content/novel-content"
+    })
+  },
+  buy(){
+    wx.navigateTo({
+      url: "/pages/shopping-cart/shopping-cart"
+    })
+  },
   
-
+  
   /**
    * 生命周期函数--监听页面加载
    */

@@ -19,12 +19,20 @@
 </view>
 </view>
 <view class="collection">
-<view class="collection-list">
-<image bindtap="collectiony" hidden="{{collection1}}" src="/img/xin1.svg"/>
-<image bindtap="collectionn" hidden="{{collection2}}" src="/img/xin2.svg"/>
+
+<view bindtap="collectiony" hidden="{{collection1}}"  class="collection-list">
+<image src="/img/xin1.svg"/>
+<text>收藏</text>
+</view>
+
+<view bindtap="collectionn" hidden="{{collection2}}"  class="collection-list">
+<image src="/img/xin2.svg"/>
 <text>收藏</text></view>
-<view class="collection-list"><image bindtap="open"  src="/img/fx2.svg"/><text>分享</text></view>
-<view class="collection-list"><image bindtap="submit" src="/img/frsj.svg"/><text>放入书架</text></view>
+
+
+
+<view bindtap="open" class="collection-list"><image src="/img/fx2.svg"/><text>分享</text></view>
+<view bindtap="submit"  class="collection-list"><image src="/img/frsj.svg"/><text>放入书架</text></view>
 </view>
 <view class="brief-introduction">
 <text class="brief-introduction-title">详情</text>
@@ -64,7 +72,8 @@
 </view>
 </view>
 <view class="buy-see">
-<text class="try-to-see">试看</text><text class="buy">购买</text>
+<text bindtap="look" class="try-to-see">试看</text><text
+bindtap="buy" class="buy">购买</text>
 </view>
 
 <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{Modalbg}}"></view>

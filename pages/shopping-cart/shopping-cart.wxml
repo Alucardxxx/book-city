@@ -1,0 +1,86 @@
+<!--pages/shopping-cart/shopping-cart.wxml-->
+<!--pages/science-fiction/science-fiction.wxml-->
+<view class="container">
+<view class="header">
+<text>购物车</text>
+</view>
+<view class="science-body">
+<view bindtap="details" class="sell-well-list">
+<image class="sell-well-img" src="/img/st.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">三体：死神永生</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：刘慈欣</text>
+</view>
+
+<view class="book-money">￥56.00</view>
+
+</view>
+</view>
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/wljs.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">未来简史</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：由瓦尔 . 郝拉里</text>
+</view>
+
+<view class="book-money">￥86.00</view>
+
+</view>
+</view>
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/xsgmxj.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">许三观卖血记</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：余华</text>
+</view>
+
+<view class="book-money">￥98.00</view>
+
+</view>
+</view>
+<view class="sell-well-list">
+<image class="sell-well-img" src="/img/bngd.jpg"/>
+<view class="hot-text">
+<view class="hot-text-top">
+<view class="hot-title">
+<text class="hot-title-text">百年孤独</text>
+<image src="/img/more.png"/>
+</view>
+<text  class="hot-author">作者：马尔克斯</text>
+</view>
+
+<view class="book-money">￥76.00</view>
+
+</view>
+</view>
+
+</view>
+<view class="settle">
+<view class="settle-accounts">
+<view class="accounts">
+<text class="settle-accounts-text1">总结(元):</text>
+<text class="settle-accounts-text2">241:00</text>
+</view>
+<view class="accounts">
+<text class="settle-accounts-text1">余额(元):</text>
+<text class="settle-accounts-text2">1375:00</text></view>
+</view>
+<view class="sign-out">购买</view>
+</view>
+</view>
+
+
+
+

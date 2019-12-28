@@ -1,0 +1,41 @@
+<!--pages/search-page/search-page.wxml-->
+
+<view class="container">
+<view class="page-header">
+<view class="home-search"><image src="/img/sousuo.svg"/>
+<input placeholder="搜索..." placeholder-style="color:#999faf;"/>
+</view>
+<text bindtap="back" class="search-text">取消</text>
+</view>
+<view class="page-title">
+<text class="ranking">热门搜索</text>
+<view class="view-all"><text>查看全部</text><image src="/img/right.png"/></view>
+</view>
+<view class="new-release">
+<view class="new-release-list">
+<image bindtap="details" src="/img/st.jpg"/>
+<text class="new-book">三体：死神永生</text>
+<text class="author">刘慈欣</text>
+</view>
+<view class="new-release-list">
+<image src="/img/xsgmxj.jpg"/>
+<text class="new-book">许三观卖血记</text>
+<text class="author">余华</text>
+</view>
+<view class="new-release-list">
+<image src="/img/bngd.jpg"/>
+<text class="new-book">百年孤独</text>
+<text class="author">马尔克斯</text>
+</view>
+</view>
+<view class="page-title">
+<text class="ranking">搜索历史</text>
+</view>
+<view class="popular-search">
+<text class="search-list">2018排行榜</text>
+<text class="search-list">职场热门</text>
+<text class="search-list">都市言情</text>
+<text class="search-list">哈弗大学经济管理类</text>
+<text class="search-list">领导才能</text>
+</view>
+</view>

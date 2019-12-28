@@ -1,0 +1,30 @@
+<!--pages/all-categories/all-categories.wxml-->
+<import src ="../template/template.wxml"/>
+
+<view class="container">
+<view class="page-header">
+<view class="home-search"><image src="/img/sousuo.svg"/>
+<input placeholder="搜索..." placeholder-style="color:#999faf;"/>
+</view>
+<view class="categories-title">
+<text bindtap="menuClick" data-num="1" class="{{_num==1?'cur':''}}">科幻</text>
+<text bindtap="menuClick" data-num="2" class="{{_num==2?'cur':''}}">宫斗</text>
+<text bindtap="menuClick" data-num="3" class="{{_num==3?'cur':''}}">职场</text>
+<text bindtap="menuClick" data-num="4" class="{{_num==4?'cur':''}}">科技</text>
+<text bindtap="menuClick" data-num="5" class="{{_num==5?'cur':''}}">言情</text>
+<text bindtap="menuClick" data-num="6" class="{{_num==6?'cur':''}}">生活</text>
+</view>
+</view>
+<view data-num="1" class="{{_num==1?'bur':''}} bar" ><view>
+<template is="science-fiction"/>
+</view></view>
+<view data-num="2" class="{{_num==2?'bur':''}} bar" ><view>
+<template is="gong-dou"/>
+</view></view>
+ <view data-num="3" class="{{_num==3?'bur':''}} bar" ><view>
+<template is="workplace"/>
+</view></view>
+ <view data-num="4" class="{{_num==4?'bur':''}} bar" ><view>
+<template is="technology"/>
+</view></view> 
+</view>
